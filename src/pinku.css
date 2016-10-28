@@ -1,1 +1,5 @@
 div > table .cell:first-child{background-color: #4cae4c;}
+
+input{
+    background-color: #d58512;
+}
