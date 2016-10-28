@@ -1,0 +1,28 @@
+div{
+    border: 2px double;
+    border-color: red;
+    background-color: #9d9d9d;
+}
+.outer{
+    display: flex;
+}
+.inner{
+    border-bottom-color: blue;
+    align-self: center;
+}
+#one{
+    height: 500px;
+    min-height: 500px;
+}
+#two{
+    height: 600px;
+    min-height: 600px;
+    background-color: #333333;
+    text-line-through-color: blue;
+    border-color: green;
+}
+#three{
+    height: 200px;
+    min-height: 200px;
+    background-color: cornsilk;
+}
