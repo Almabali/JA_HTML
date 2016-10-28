@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+</head>
+<body>
+<div class="row">
+    <div class="col-md-6">
+        <form>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <label>Name: </label>
+                    <input type="text">
+                </div>
+                <div class="col-md-2">
+                    <label>Gender</label>
+                    <select>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="dunno">Dunno</option>
+                    </select>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-5"><label>Sliderescucc: </label>
+                    <input type="range" name="sliders" min="0" max="10" step="2">
+                </div>
+                <div class="col-md-1">
+                    <button type="button" class="btn btn-default btn-lg">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        Login
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="container">
+                <span class="label label-default" height="900px">Default</span>
+                <span class="label label-primary">Primary</span>
+                <span class="label label-success">Success</span>
+                <span class="label label-info">Info</span>
+                <span class="label label-warning">Warning</span>
+                <span class="label label-danger">Danger</span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <iframe src="http://orig02.deviantart.net/8c38/f/2016/301/5/5/greigus_by_sky_burial-damhoqy.png">
+
+        </iframe>
+        <br/>
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 60%;">
+                Hp: 60%
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75"
+                 aria-valuemin="0" aria-valuemax="100"
+                 style="width: 60%;">
+                Mana: 20%
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
